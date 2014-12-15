@@ -13,7 +13,7 @@ from PlayFrame import PlayFrame
 
 
 class CorpusGUI(Tk):
-    def __init__(self, title=None, pickleFile='beta_corpus.p'):
+    def __init__(self, pickleFile='corpus.p'):
         Tk.__init__(self)
         
         Navigation(self)

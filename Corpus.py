@@ -369,12 +369,12 @@ class Word():
         return regexList
 
 def cor():
-    return pickle.load(open('beta_corpus.p', 'rb'))['Romagnol']
+    return pickle.load(open('corpus.p', 'rb'))['English']
 
 
 def update():
     
-    corpusDict = pickle.load(open('beta_corpus.p', 'rb'))
+    corpusDict = pickle.load(open('corpus.p', 'rb'))
     
     for d in corpusDict:
         worksList = []
@@ -396,8 +396,8 @@ def update():
     
         
 
-    pickle.dump(corpusDict, open('beta_corpus.p', 'wb'))
+    pickle.dump(corpusDict, open('corpus.p', 'wb'))
     #pickle.dump(corpusDict, open('jumper.p', 'wb'))
-    return pickle.load(open('beta_corpus.p', 'rb'))['Romagnol']
+    return pickle.load(open('corpus.p', 'rb'))['English']
 
 #x = update()

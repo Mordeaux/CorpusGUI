@@ -120,7 +120,7 @@ class Tokenizer:
                 for w in self.trigrams[trigram]
         
         
-rgn = pickle.load(open('beta_corpus.p', 'rb'))['Romagnol']
+rgn = pickle.load(open('corpus.p', 'rb'))['English']
 
 root = Tk()
 

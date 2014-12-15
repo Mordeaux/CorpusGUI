@@ -271,7 +271,7 @@ class InterpolationModel(KatzModel):
         
         
 
-rgn = pickle.load(open('beta_corpus.p', 'rb'))['Romagnol']
+rgn = pickle.load(open('corpus.p', 'rb'))['English']
 
 
 discounts = range(10, 100, 10)

@@ -40,5 +40,5 @@ class GenerativeModel:
 
 
 
-rgn = pickle.load(open('beta_corpus.p', 'rb'))['Romagnol']
+rgn = pickle.load(open('corpus.p', 'rb'))['English']
 model = GenerativeModel(rgn)
